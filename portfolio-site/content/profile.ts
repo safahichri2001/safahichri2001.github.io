@@ -10,8 +10,8 @@ export const profile = {
   email: "safa.hicheri@polytechnicien.tn",
   github: "https://github.com/safahichri2001",
   linkedin: "https://www.linkedin.com/in/safa-hichri/" as string | undefined,
-  // TODO: drop the one-page CV in public/cv/ and set "/cv/safa-hichri-cv.pdf"
-  cv: undefined as string | undefined,
+  // Public version: no phone number
+  cv: "/cv/safa-hichri-cv.pdf" as string | undefined,
   summary: [
     "Cybersecurity engineering student and AI master's candidate working where identity and AI agents meet.",
     "I have designed a Zero Trust IAM architecture with SSO/MFA, least-privilege RBAC and centralized audit logging, and built an LLM security agent whose actions are restricted by RBAC and human approval to prevent excessive agency.",
