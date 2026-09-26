@@ -78,17 +78,18 @@ export const projects: Project[] = [
     slug: "facial-recognition-access-control",
     title: "Real-Time Facial Recognition Access Control",
     subtitle: "Bachelor's final year project — Future Vision Association",
-    context: "Bachelor's final year project · 2023 – 2024",
+    context: "Bachelor's final year project · Team of 2 · 2023 – 2024",
     status: "completed",
     highlights: [
-      "Deployed a real-time facial recognition access-control system in a live coworking space.",
-      "Prevented spoofing attempts with an integrated Hugging Face liveness-detection model.",
-      "Automated access logging and reservation sync through mobile app integration.",
+      "Deployed a real-time facial recognition access-control system in a live coworking space, with a Tkinter desk interface for login and logout.",
+      "Blocked spoofing attempts — printed photos or screens — with a liveness-detection check served from Hugging Face.",
+      "Automated access logging and synchronized entries with the coworking space's mobile reservation app.",
     ],
     metrics: [
       { value: "92%", label: "recognition accuracy" },
       { value: "<1s", label: "detection time" },
     ],
-    stack: ["Python", "Computer Vision", "Hugging Face", "Mobile App"],
+    stack: ["Python", "OpenCV", "face_recognition", "Tkinter", "Hugging Face"],
+    repo: "https://github.com/safahichri2001/FaceRecognition-system",
   },
 ];
